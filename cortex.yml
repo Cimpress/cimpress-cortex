@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: $DOMAIN-$SERVICE_NAME
+  x-cortex-apm:
+    newrelic:
+      applicationId: $APPLICATION_ID
+  x-cortex-git:
+    gitlab:
+      repository: Cimpress-Technology/ABC/Backbone/$SERVICE_NAME
+  x-cortex-tag: $SERVICE_NAME
+  x-cortex-link:
+  - url: $DOCUMENT_URL
+    name: $SERVICE_NAME
+    type: documentation
+  - name: $SERVICE_NAME Swagger
+    type: OPENAPI
+    url: $SWAGGER_URL
+  - name: $SERVICE_NAME Jira tickets
+    type: documentation
+    url: $JIRA_URL
+  - name: $SERVICE_NAME Logs
+    type: logs
+    url: $NEWRELIC_URL_logs
+  x-cortex-type: service
+  x-cortex-issues:
+    jira:
+      projects:
+        - CimCommerce Support
+  x-cortex-oncall:
+    pagerduty:
+      id: $PAGERDUTY_ID
+      type: SERVICE
+  x-cortex-owners:
+  - name: integrations-squad
+    type: GROUP
+  - type: email
+    email: vrunali.rane@cimpress.com
+  - type: slack
+    channel: cortex-ecom-domain
+    notificationsEnabled: true
+  x-cortex-snyk:
+    projects:
+      - organization: $ORG_ID
+        projectId: $PROJECT_ID
+  x-cortex-dashboards:
+    embeds:
+    - type: newrelic
+      url: $NEWRELIC_URL
