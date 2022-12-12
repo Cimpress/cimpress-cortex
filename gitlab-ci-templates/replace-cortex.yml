@@ -10,6 +10,7 @@
     - mkdir cortex
     - cd cortex
     - git clone https://github.com/Cimpress/cimpress-cortex.git
+    - cd cimpress-cortex
     - cd gitlab-ci-templates
     - ls -la
     - envsubst < cortex.yml > cortex1.yml
