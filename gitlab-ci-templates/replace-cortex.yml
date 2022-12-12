@@ -22,7 +22,7 @@
     - git checkout -b cortex-implementation
     - git branch
     - ls -la
-    - cp ../gitlab-ci-templates/cortex.yml cortex.yml
+    - cp ../cimpress-cortex/cortex.yml cortex.yml
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
     - git config user.name "sa_ecom-gitlab-integration"
     - git add cortex.yml
