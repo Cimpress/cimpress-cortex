@@ -25,7 +25,8 @@
     - git branch
     - ls -la
     - cp ../cimpress-cortex/cortex.yml cortex.yml
-    - cp -rf ../cimpress-cortex/custom/ scripts/
+    - cp -rf ../cimpress-cortex/custom/* scripts/
+    - ls scripts/
     - chmod 777 scripts/rfc_custom_data.py
     - python3 scripts/rfc_custom_data.py
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
