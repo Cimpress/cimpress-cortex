@@ -6,6 +6,8 @@
     - sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
     - sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
     - yum update -y
+    - yum install -y python3
+    - pip3 install requests
     - yum -y install git
     - mkdir cortex
     - cd cortex
@@ -28,5 +30,3 @@
     - git add cortex.yml
     - git commit -m "ADD cortex.yml"
     - git push -u -f origin cortex-implementation
-
-  
