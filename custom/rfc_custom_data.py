@@ -7,7 +7,7 @@ import sys
 
 service_name = os.environ.get('SERVICE_NAME')
 
-output = json.load(open('rfc3.json'))
+output = json.load(open('scripts/rfc3.json'))
 data = {}
 data['serviceName'] = service_name
 data['key'] = 'rfc3'
@@ -24,7 +24,7 @@ rfc3 = requests.post(url, json=rfc3_file, headers=headers)
 print("Pushed rfc3 data")
 print(rfc3.text)
 
-output = json.load(open('rfc5.json'))
+output = json.load(open('scripts/rfc5.json'))
 data = {}
 data['serviceName'] = service_name
 data['key'] = 'rfc5'
@@ -41,7 +41,7 @@ rfc5 = requests.post(url, json=rfc5_file, headers=headers)
 print("Pushed rfc5 data")
 print(rfc5.text)
 
-output = json.load(open('rfc7.json'))
+output = json.load(open('scripts/rfc7.json'))
 data = {}
 data['serviceName'] = service_name
 data['key'] = 'rfc7'
