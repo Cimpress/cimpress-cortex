@@ -20,7 +20,7 @@ info:
     url: $JIRA_URL
   - name: $SERVICE_NAME Logs
     type: logs
-    url: $NEWRELIC_URL_logs
+    url: $NEWRELIC_URL_LOGS
   x-cortex-type: service
   x-cortex-issues:
     jira:
