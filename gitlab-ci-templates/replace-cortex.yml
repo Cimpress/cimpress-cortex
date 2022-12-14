@@ -6,8 +6,8 @@
     - sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
     - sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
     - yum update -y
-    - yum install -y python
-    - pip install requests
+    - yum install -y python3
+    - pip3 install requests
     - yum -y install git
     - mkdir cortex
     - cd cortex
@@ -27,7 +27,7 @@
     - cp ../cimpress-cortex/cortex.yml cortex.yml
     - cp -rf ../cimpress-cortex/custom/rfc_custom_data.py scripts/rfc_custom_data.py
     - chmod 777 scripts/rfc_custom_data.py
-    - python scripts/rfc_custom_data.py
+    - python3 scripts/rfc_custom_data.py
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
     - git config user.name "sa_ecom-gitlab-integration"
     - git add cortex.yml scripts/
