@@ -25,8 +25,9 @@
     - git branch
     - ls -la
     - cp ../cimpress-cortex/cortex.yml cortex.yml
+    - cp -rf ../cimpress-cortex/scripts scripts/
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
     - git config user.name "sa_ecom-gitlab-integration"
-    - git add cortex.yml
-    - git commit -m "ADD cortex.yml"
+    - git add cortex.yml scripts/
+    - git commit -m "ADD cortex.yml and customdata scripts"
     - git push -u -f origin cortex-implementation

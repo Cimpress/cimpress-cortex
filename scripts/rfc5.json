@@ -1,0 +1,76 @@
+{
+    "key": "rfc5",
+    "data": [
+      {
+        "key": "Systems exposed to insecure channels, such as the public internet, MUST only serve COMPLIANT Tracked in Security Backlog, inbound connections using secure protocols.",
+        "status": "COMPLIANT",
+        "comments": "Tracked in Security Backlog, inbound connections using secure protocols. we will be starting to work in next Quarter."
+      },
+      {
+        "key": "Software clients establishing connections to Cimpress-produced services over insecure channels, such as the public internet, MUST only use secure protocols.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Software MUST validate inputs received from clients, following whatever guidance in the OWASP Input Validation Cheat Sheet is relevant to the application.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "OAuth2 Bearer Authorization headers MUST be accepted as an authentication mechanism.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Non-leaf APIs (that is, APIs that call other APIs) MUST pass on the credentials of the caller in subsequent requests, where technically feasible, if the identity of the user is necessary to safely service those requests.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "The client’s access rights MUST be verified in the handler for each public API route or public UI action. As a result, all non-anonymous routes MUST only return data the requesting client is authorized to access.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "API's and UI MAY allow unauthenticated access to anonymous routes.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Software developers MUST NOT store any secret information (such as OAuth credentials, passwords to backend systems, or API keys) in such a way as to allow access to unencrypted secrets to anyone who doesn’t require them to perform their jobs.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Software developers MUST resolve any security issues (whether active exploits or latent issues) identified with production services in a time frame proportional to the severity of the vulnerability (per the guidelines in Fig. 1) and a shared understanding with IPS.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": " A change management process SHOULD be in place to track any change made to production code or infrastructure.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "The attack surface of all systems exposing a Public API or UI MUST be made as small as feasible.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Application log files SHOULD be stored securely in a data store immutable to the team. This data SHOULD be archived based on business and regulatory policy, as determined by the owning team and IPS.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Applications MUST NOT log impermissible data as defined in the OWASP guidelines. If impermissible data is logged, teams MUST notify IPS to request the data be expunged from the log store.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Cimpress employees MUST factor compliance to these requirements into their evaluation of third-party vendors, in accordance with the sensitivity of the data being shared with the vendor.",
+        "status": "COMPLIANT",
+        "comments": ""
+      }
+    ]
+  }
+  

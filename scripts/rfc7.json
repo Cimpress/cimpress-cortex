@@ -1,0 +1,172 @@
+{
+    "key": "rfc7",
+    "data": [
+
+      {
+        "key": "Each business SHOULD maintain an inventory of critical data assets categorized per the Data Handling Policy.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Inventory of critical assets SHOULD be updated upon deletion or addition.",
+        "status": "NOT APPLICABLE",
+        "comments": ""
+      },
+      {
+        "key": "Data SHOULD be encrypted in transit and at rest per the Data Handling Policy. This will ensure data is protected when compromised.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "To minimize the blast radius of a compromised service, all services SHOULD block all communication except for that that is needed for the service to function as intended.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Multi-Factor Authentication MUST be implemented as prescribed by the Data Handling Policy under \"Authentication\" for all interactive end-user access to data.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "\"Least Privileges Principle\" SHOULD be used when assigning privileges to a user or service.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Escalating levels of privilege SHOULD be protected through additional levels of authorization. Some examples of these levels of authorization are separate accounts, re- entry of authentication credentials (su root), and explicit assumption of an IAM role.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators of the following enterprise services MUST NOT use their everyday user account for logins or configuration changes.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "To facilitate collaboration with the different lines of business, all services SHOULD integrate with an Identity Provider (IdP) that supports the latest protocols for identity federation and authentication.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "To mitigate theft, all credentials MUST be encrypted when stored or transmitted.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "The use of ssh keys protected by a passphrase is an acceptable practice.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Enterprise user credentials MUST be rotated every 180 days when MFA is enabled, every 90 days if MFA is not enabled.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Shared credentials SHOULD be changed within 24 hours after the departure of any individual with access to those credentials.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Shared credentials MUST be changed within 7 days after the departure of individuals with access to those credentials.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "If MFA is not technically feasible, a password of at least 21 characters SHOULD be used.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "API Keys/Security Tokens SHOULD be rotated within 90 Days and MUST be rotated within 180 days.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Actions executed by an administrative user MUST be logged.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "All administrative action log data MUST be retained for 30 days in a raw unaltered state.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Network traffic SHOULD be monitored for malicious activity.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Authentication successes and failures",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Authorization (access control) failures",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "System start-ups and shut-downs",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Addition, deletion, or modification of groups",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Changes to privileges",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "All system log data SHOULD be retained for 30 days in a raw unaltered state.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Log data older than 30 days SHOULD be archived for at least 1 year.",
+        "status": "NOT APPLICAPLE",
+        "comments": ""
+      },
+      {
+        "key": "All enterprise systems (pc, laptop, tablet, phone) MUST require a password or biometric login.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Idle remote desktop user sessions SHOULD auto-lock after 15 minutes.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Idle ssh connections SHOULD disconnect after 15 minutes.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Idle remote desktop user sessions SHOULD auto-lock after 15 minutes.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "All enterprise systems MUST install an Endpoint Detection and Response (EDR) agent for COMPLIANT Crowdstrike is used as EDR detecting and responding to malicious behavior.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "To mitigate the exploit of patched vulnerabilities, all systems SHOULD be patched with the latest patches on a monthly cycle.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Systems that are End of Life AND cannot receive security patches MUST NOT be used.",
+        "status": "COMPLIANT",
+        "comments": ""
+      }
+    ]
+  }
+  

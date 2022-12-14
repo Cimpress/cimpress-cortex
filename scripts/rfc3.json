@@ -1,0 +1,52 @@
+[
+      {
+        "key": "Ensures CloudTrail is enabled for all regions within an account.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators MUST define and enforce a rotation policy for passwords and API keys.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators MUST enable multi-factor authentication on any credentials used for interactive logon to the Cloud Account (e.g. AWS root account or IAM users).",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Service owners MUST actively review any Cloud provider’s security assessments (such as AWS’ Trusted Advisor’s) and, upon discovery.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators MUST notify the contract holders for the Cloud provider when a Cloud Account is no longer needed.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Remote Management interfaces for systems within a Cloud Account MUST only be accessible from IP’s that require access.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators MUST enable netflow logging (or equivalent) for network traffic within their Cloud Account, where technically possible.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": " Service owners MUST actively review available security patches for Operating Systems, web- servers, application frameworks, etc. and apply relevant patches regularly.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Administrators MUST provide a point of contact for security and operational escalations regarding their Cloud Account.",
+        "status": "COMPLIANT",
+        "comments": ""
+      },
+      {
+        "key": "Service owners SHOULD perform architectural reviews with provider-specific review services (where available).",
+        "status": "COMPLIANT",
+        "comments": ""
+      }
+    ]
