@@ -3,7 +3,7 @@ info:
   title: $DOMAIN-$SERVICE_NAME
   x-cortex-apm:
     newrelic:
-      applicationId: $APPLICATION_ID
+      applicationId: $NEWRELIC_APP_ID
   x-cortex-git:
     gitlab:
       repository: Cimpress-Technology/ABC/Backbone/$SERVICE_NAME
@@ -40,8 +40,8 @@ info:
     notificationsEnabled: true
   x-cortex-snyk:
     projects:
-      - organization: $ORG_ID
-        projectId: $PROJECT_ID
+      - organization: $SNYK_ORG_ID
+        projectId: $SNYK_PROJECT_ID
   x-cortex-dashboards:
     embeds:
     - type: newrelic
