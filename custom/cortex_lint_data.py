@@ -21,4 +21,3 @@ headers = {
 
 lint = requests.post(url, json=lint_file, headers=headers)
 print("Pushed lint data")
-print(lint.text)
