@@ -22,8 +22,7 @@
     - git clone https://cortex-git:${CI_JOB_TOKEN}@gitlab.com/Cimpress-Technology/${SERVICE_REPO}.git
     - cd $SERVICE_NAME
     - git checkout -b cortex-implementation
-    - git branch
-    - ls -la
+    - mkdir -p scripts
     - cp ../cimpress-cortex/cortex.yml cortex.yml
     - cp -rf ../cimpress-cortex/custom/* scripts/
     - ls scripts/
