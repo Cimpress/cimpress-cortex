@@ -31,10 +31,10 @@ info:
       id: $PAGERDUTY_ID
       type: SERVICE
   x-cortex-owners:
-  - name: integrations-squad
+  - name: $SQUAD_NAME
     type: GROUP
   - type: email
-    email: vrunali.rane@cimpress.com
+    email: $SQUAD_DL
   - type: slack
     channel: cortex-ecom-domain
     notificationsEnabled: true
