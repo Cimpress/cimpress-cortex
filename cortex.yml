@@ -6,7 +6,7 @@ info:
       applicationId: $NEWRELIC_APP_ID
   x-cortex-git:
     gitlab:
-      repository: Cimpress-Technology/ABC/Backbone/$SERVICE_NAME
+      repository: $GITLAB_URL
   x-cortex-tag: $SERVICE_NAME
   x-cortex-link:
   - url: $DOCUMENT_URL
