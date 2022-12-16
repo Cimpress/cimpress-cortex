@@ -6,7 +6,7 @@ info:
       applicationId: $NEWRELIC_APP_ID
   x-cortex-git:
     gitlab:
-      repository: SERVICE_REPO
+      repository: $SERVICE_REPO
   x-cortex-tag: $SERVICE_NAME
   x-cortex-link:
   - url: $DOCUMENT_URL
