@@ -19,7 +19,7 @@
     - mv cortex1.yml cortex.yml
     - ls -la
     - cd ..
-    - git clone https://cortex-git:${CI_JOB_TOKEN}@gitlab.com/${SERVICE_REPO}.git
+    - git clone https://cortex-git:${CORTEX_JOB_TOKEN}@gitlab.com/${SERVICE_REPO}.git
     - cd $SERVICE_NAME
     - git checkout -b cortex-implementation
     - mkdir -p scripts
