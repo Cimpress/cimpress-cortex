@@ -9,6 +9,8 @@
     - yum install -y python3
     - pip3 install requests
     - yum -y install git
+    - curl –sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+    - yum install –y nodejs
     - mkdir cortex
     - cd cortex
     - git clone https://github.com/Cimpress/cimpress-cortex.git
