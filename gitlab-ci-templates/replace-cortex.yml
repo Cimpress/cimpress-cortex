@@ -32,6 +32,6 @@
     - python3 scripts/rfc_custom_data.py
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
     - git config user.name "sa_ecom-gitlab-integration"
-    - git add cortex.yml scripts/
+    - git add -f cortex.yml scripts/
     - git commit -m "ADD cortex.yml and customdata scripts"
     - git push -u -f origin cortex-implementation
