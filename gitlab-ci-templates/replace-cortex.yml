@@ -1,6 +1,10 @@
 .cortex: &cortex
   image: vrunali/cortex:centos
   stage: replace_cortex
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+      when: never
+    - when: always
   script: 
 #     - cd /etc/yum.repos.d/
 #     - sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
@@ -33,5 +37,5 @@
     - git config user.email "sa_ecom-gitlab-integration@cimpress.com"
     - git config user.name "sa_ecom-gitlab-integration"
     - git add -f cortex.yml scripts/
-    - git commit -m "ADD cortex.yml and customdata scripts"
+    - git commit -m "ADD cortex.yml and customdata scripts [skip ci]"
     - git push -u -f origin cortex-implementation
