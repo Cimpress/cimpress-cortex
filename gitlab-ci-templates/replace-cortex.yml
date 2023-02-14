@@ -1,10 +1,10 @@
 .cortex: &cortex
   image: vrunali/cortex:centos
   stage: replace_cortex
-  rules:
-#     - if: $CI_PIPELINE_SOURCE == "push"
-#       when: never
-    - when: always
+#   rules:
+# #     - if: $CI_PIPELINE_SOURCE == "push"
+# #       when: never
+#     - when: always
   script: 
 #     - cd /etc/yum.repos.d/
 #     - sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
