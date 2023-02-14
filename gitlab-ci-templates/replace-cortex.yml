@@ -26,6 +26,7 @@
     - ls -la
     - cd ..
     - git clone https://cortex-git:${CORTEX_JOB_TOKEN}@gitlab.com/${SERVICE_REPO}.git
+    - ls -la
     - cd $SERVICE_NAME
     - git checkout -b cortex-implementation
     - mkdir -p scripts
